@@ -1,0 +1,11 @@
+<html>
+<head>
+    <title>チャット</title>
+</head>
+<body>
+授業リスト
+{{range $var := .}}
+    <p>{{$var.Date}} {{$var.Time}} {{$var.Mentor}}</p>
+{{end}}
+</body>
+</html>
