@@ -8,7 +8,7 @@ services:
       dockerfile: docker/api/Dockerfile
       target: build
     volumes:
-      - ./src/app:/go/stapro/src/app
+      - ./src/app:/go/reaction/src/app
     command: realize start --run --no-config
     ports:
       - 8000:8000
